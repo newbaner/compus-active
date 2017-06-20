@@ -1,0 +1,131 @@
+*{margin: 0;padding: 0}
+html{
+	font-size: 100px;
+	width: 100%;
+	overflow: auto;
+	background: url('../imgs/bg.jpg');
+	position: relative;
+}
+#logo{
+	width: 3.75rem;
+	height: 3.635rem;
+	margin: 0.48rem 0;
+}
+#logo img{
+	width: 100%;
+	height: 3.635rem;
+}
+#award{
+	width: 100%;
+	height: 3.45rem;
+}
+#award_title{
+	text-align: center;
+	height: 0.6rem;
+	font-size: 0.18rem;
+	font-weight: bold;
+	line-height: 0.6rem;
+}
+.fl{
+	float: left;
+}
+.hwxk{
+	font-family: "华文行楷";
+	font-weight: bold;
+	
+}
+.rankings{
+	width: 33.33%;
+	height: 1.50rem;
+	font-size: 0.12rem;
+	text-align: center;
+}
+.picbox{
+	width: 0.84rem;
+	height: 0.84rem;
+	margin: 0.075rem auto;
+	background: #fff;
+	box-shadow:0.01rem 0.05rem 0.05rem 0.02rem #d34731;
+	border-radius: 0.42rem;
+}
+.picbox img{
+	width: 80%;
+	margin-top: 0.16rem;
+}
+.picname{
+	font-size: 9px;
+}
+.num{
+	font-size: 21px;
+	font-weight: bold;
+}
+#anwei{
+	width: 1.11rem;
+	height:0.98rem ;
+	margin:0 auto;
+	padding-top: 0.31rem;
+	font-size: 0.12rem;
+}
+#wrap{
+	clear: both;
+	width: 100%;
+	height: 0.98rem;
+	text-align: center;
+}
+#circle{
+	width: 0.84rem;
+	height: 0.84rem;
+	border-radius: 0.42rem;
+	background: #fff;
+	margin-left: 0.1rem;
+	position: relative;
+}
+#circle p{
+	position: absolute;
+	left:-0.1rem;
+	top:0.2rem;
+	width: 1.11rem;
+}
+#wrap-rule{
+	width: 100%;
+	height:4.78rem ;
+
+}
+#rule{
+	width: 3.35rem;
+	height: 100%;
+	margin: 0 auto;
+	border-top: 0.01rem solid #ea2a2a;
+}
+#rule .active-title{
+	font-size: 0.24rem;
+	line-height: 0.7rem;
+	text-align: center;
+
+}
+.text-list{
+	font-size: 0.12rem;
+}
+.text-list span{
+	width: 0.19rem;
+	height: 0.19rem;
+	background: #f80303;
+	display: inline-block;
+	line-height: 0.19rem;
+	text-align: center;
+	border-radius: 0.95rem;
+}
+
+#footer{
+	width: 100%;
+	height: 0.52rem;
+	
+	position: relative;
+}
+#footer img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0
+}
